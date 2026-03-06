@@ -207,3 +207,28 @@ Server should respond with **200 OK** and load content normally.
 Actual Result  
 Server returns **522 error** and content fails to load.
 
+---
+## BUG-010: Notification Does Not Navigate to Related Section
+
+Module: Notifications  
+Severity: Medium  
+Priority: Medium  
+Environment: Chrome Browser
+
+Description  
+Clicking on notifications does not redirect the user to the related section or content.
+
+Steps to Reproduce
+1. Log in to https://remoteaxle.com
+2. Click on the **Notifications** icon
+3. Select any notification
+4. Observe system behaviour
+
+Expected Result  
+User should be redirected to the related page or section referenced in the notification.
+
+Actual Result  
+Clicking the notification does not navigate anywhere.
+
+
+
