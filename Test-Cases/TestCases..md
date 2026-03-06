@@ -171,3 +171,69 @@ User should log in successfully.
 - Cart count should update accordingly
 - Empty cart message should appear if no items remain
 ---
+## TC-010: Login With Invalid Password
+
+**Module:** Login
+
+**Description:** Verify that login fails when an incorrect password is entered.
+
+**Precondition**
+User must already be registered.
+
+**Test Data**
+Email: test@test.com  
+Password: 12aa34bb33
+
+**Steps to Reproduce**
+1. Go to homepage
+2. Click **Login**
+3. Enter valid email and incorrect password
+4. Click **Log In**
+
+**Expected Result**
+Error message **"Incorrect Password"** should be displayed
+
+---
+## TC-011: Signup With Valid Email
+
+**Module:** Signup
+
+**Description:** Verify that a new user can sign up using valid details.
+
+**Steps to Reproduce**
+1. Go to homepage
+2. Click **Sign Up**
+3. Enter valid credentials
+4. Click **Create Account**
+
+**Test Data**
+First Name: XYZ  
+Last Name: ABC  
+Email: test@test.com  
+Password: 12aa34bb56
+
+**Expected Result**
+Account should be created successfully with confirmation message.
+
+---
+## TC-012: Password Must Be At Least 8 Characters
+
+**Module:** Signup
+
+**Description:** Verify password validation during signup.
+
+**Steps to Reproduce**
+1. Go to homepage
+2. Click **Sign Up**
+3. Enter required details
+4. Enter passwords with different lengths
+
+**Test Data**
+Passwords Tested:
+- 12aa33bb
+- 112cccc
+- 112233445
+
+**Expected Result**
+Passwords with fewer than 8 characters should show error  
+**"Password must be at least 8 letters."**
