@@ -1,15 +1,25 @@
 # QA Testing Project – RemoteAxle
 
-This repository contains a manual testing project conducted on the RemoteAxle website.
+This repository contains a **manual QA testing project** conducted on the RemoteAxle website.
 
-The objective of this project was to identify functional, usability, validation, and performance issues through exploratory and functional testing.
+The objective of this project was to identify **functional, usability, validation, and performance issues** through exploratory and functional testing.
+
+---
+
+## Website Tested
+
+https://remoteaxle.com
+
+---
 
 ## Testing Activities Performed
 
-• Test planning  
-• Exploratory testing  
-• Test case design  
-• Bug identification and reporting  
+- Test planning
+- Exploratory testing
+- Test case design
+- Bug identification and reporting
+
+---
 
 ## Modules Tested
 
@@ -23,16 +33,24 @@ The objective of this project was to identify functional, usability, validation,
 - Transaction system
 - Classroom
 
-## Repository Structure
+---
 
-Test-Plan – Contains testing strategy and scope  
-Exploratory-Testing – Contains exploratory testing session report  
-Test-Cases – Contains structured functional test cases  
-Bug-Reports – Contains detailed bug reports discovered during testing  
-Screenshots – Evidence of identified defects
+---
 
 ## Tools Used
 
-Manual Testing  
-Chrome DevTools  
-Jira-style Bug Reporting
+- Manual Testing
+- Chrome DevTools
+- GitHub
+- Jira-style Bug Reporting
+
+---
+
+## Skills Demonstrated
+
+- Exploratory Testing
+- Functional Testing
+- Test Case Design
+- Bug Reporting
+- QA Documentation
+
