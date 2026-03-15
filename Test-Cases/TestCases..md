@@ -15,6 +15,12 @@
 
 Homepage should load without errors.
 
+**Actual Result:**
+As Expected
+
+**Status:**
+Pass
+
 ---
 
 ## TC-002: Verify course listing page loads
@@ -31,6 +37,12 @@ Homepage should load without errors.
 **Expected Result:**
 
 Course listing page should display all available courses.
+
+**Actual Result:**
+As expected.
+
+**Status:**
+Pass 
 
 ---
 
@@ -50,6 +62,12 @@ Course listing page should display all available courses.
 **Expected Result:**
 
 Only courses related to the selected category should be displayed.
+
+**Actual Result:**
+As Expected
+
+**Status:**
+Pass
 
 ---
 
@@ -71,6 +89,12 @@ Only courses related to the selected category should be displayed.
 
 The selected course should appear in the cart with the correct price.
 
+ **Actual Result:**
+The selected course appears in the cart but RS.0 price is displayed .
+
+**Status:**
+Fail
+
 ---
 
 ## TC-005: Verify payment methods work correctly
@@ -89,6 +113,12 @@ The selected course should appear in the cart with the correct price.
 **Expected Result:**
 
 User should be redirected to the selected payment gateway.
+
+**Actual Result:**
+Diaplays {"code":"ES705","message":"Invalid transaction amount."} with 400 status code.
+
+**Status:**
+Fail
 
 ---
 
@@ -114,6 +144,12 @@ Password: 12aa34bb56
 
 User should log in successfully.
 
+ **Actual Result:**
+ As Expected
+
+ **Status:**
+ Pass
+ 
 ---
 ### TC-007: Add Course to Cart
 
@@ -133,7 +169,14 @@ User should log in successfully.
 **Expected Result**
 - The course should be added to the cart
 - Cart icon should show updated item count
-- User should see confirmation feedback
+- User should see confirmation message
+
+**Actual Result:**
+As expected
+
+**Status:**
+Pass
+
 ---
 ### TC-008: Cart Persistence Across Pages
 
@@ -152,6 +195,13 @@ User should log in successfully.
 **Expected Result**
 - Previously added course should still be visible in cart
 - Cart count should remain correct
+  
+**Actual Result:**
+As Expected
+
+**Status:**
+Pass
+
 ---
 ### TC-009: Remove Course from Cart
 
@@ -170,6 +220,13 @@ User should log in successfully.
 - Course should be removed from cart
 - Cart count should update accordingly
 - Empty cart message should appear if no items remain
+  
+**Actual Result:**
+As Expected
+
+**Status:**
+Pass
+
 ---
 ## TC-010: Login With Invalid Password
 
@@ -191,7 +248,13 @@ Password: 12aa34bb33
 4. Click **Log In**
 
 **Expected Result**
-Error message **"Incorrect Password"** should be displayed
+Error message **"Invalid Password"** should be displayed
+
+**Actual Result**
+As Expected
+
+**Status**
+Pass
 
 ---
 ## TC-011: Signup With Valid Email
@@ -213,7 +276,14 @@ Email: test@test.com
 Password: 12aa34bb56
 
 **Expected Result**
-Account should be created successfully with confirmation message.
+- Account should be created successfully with confirmation message.
+- Ask for email verification
+  
+**Actual Result**
+As Expected
+
+**Status**
+Pass
 
 ---
 ## TC-012: Password Must Be At Least 8 Characters
@@ -237,3 +307,9 @@ Passwords Tested:
 **Expected Result**
 Passwords with fewer than 8 characters should show error  
 **"Password must be at least 8 letters."**
+
+**Actual Result**
+As Expected
+
+**Status**
+Pass
